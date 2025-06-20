@@ -37,3 +37,26 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# Pasta de dependências
+node_modules/
+
+# Arquivos de configuração de IDE
+*.pbxproj
+.DS_Store
+
+# Arquivos de build
+build/
+*.apk
+*.ipa
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração
+.env
+.env.local
+
+# Outros arquivos a serem ignorados
+.vscode/
+*.swp
